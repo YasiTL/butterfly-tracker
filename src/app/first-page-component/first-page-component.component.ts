@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {OnsNavigator} from 'ngx-onsenui';
 import { SecondPageComponentComponent } from '../second-page-component/second-page-component.component';
+import { Params } from 'ngx-onsenui';
 
 @Component({
   selector: 'ons-page[first]',
@@ -25,7 +26,7 @@ export class FirstPageComponentComponent implements OnInit {
 
   push() {
     // Push SecontPageComponent to `ons-navigator
-    this.navagator.element.pushPage(SecondPageComponentComponent);
+    this.navagator.element.pushPage(SecondPageComponentComponent, {data: {foo: 1234}});
   }
 
 }

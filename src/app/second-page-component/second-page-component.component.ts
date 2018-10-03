@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { OnsNavigator } from 'ngx-onsenui';
+import { OnsNavigator, Params } from 'ngx-onsenui';
 import { FirstPageComponentComponent } from '../first-page-component/first-page-component.component';
 
 @Component({
@@ -17,7 +17,9 @@ import { FirstPageComponentComponent } from '../first-page-component/first-page-
 })
 export class SecondPageComponentComponent implements OnInit {
 
-  constructor(private navagator: OnsNavigator) { }
+  constructor(private navagator: OnsNavigator, private params: Params) {
+    console.log(JSON.stringify(params.data)); // gets {foo: 1234} from first page
+  }
 
   ngOnInit() {
   }
