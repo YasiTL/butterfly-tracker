@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
+import { FirstPageComponentComponent } from './first-page-component/first-page-component.component';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+  <ons-navigator [page]="initialPage"></ons-navigator>
+`
 })
 export class AppComponent {
   title = 'butterfly-site';
+  initialPage = FirstPageComponentComponent;
 }
