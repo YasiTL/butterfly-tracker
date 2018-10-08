@@ -5,16 +5,7 @@ import { Params } from 'ngx-onsenui';
 
 @Component({
   selector: 'ons-page[first]',
-  template: `
-  <ons-toolbar>
-    <div class="center">First</div>
-  </ons-toolbar>
-  <div class="background"></div>
-  <div class="content">
-    First page <br>
-    <ons-button (click)="push()"> Push </ons-button>
-  </div>
-`
+  templateUrl: 'first-page-component.component.html'
 })
 export class FirstPageComponentComponent implements OnInit {
   // Get a way to access `ons-navigator` by Dependency Injection (DI)
