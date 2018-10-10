@@ -1,0 +1,25 @@
+.section {
+    padding: 8rem 0 7rem;
+    text-align: center;
+  }
+  .section-heading,
+  .section-description {
+    margin-bottom: 1.2rem;
+  }
+
+  .values {
+    background-size: cover;
+    color: rgb(36, 31, 31);
+    padding-bottom: 5rem;
+  }
+  .value-multiplier {
+    margin-bottom: .5rem;
+    color: rgb(235, 185, 20);
+  }
+  .value-heading {
+    margin-bottom: .3rem;
+  }
+  .value-description {
+    opacity: .8;
+    font-weight: 300;
+  }

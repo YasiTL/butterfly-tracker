@@ -5,7 +5,8 @@ import { Params } from 'ngx-onsenui';
 
 @Component({
   selector: 'ons-page[first]',
-  templateUrl: 'first-page-component.component.html'
+  templateUrl: 'first-page-component.component.html',
+  styleUrls: ['first-page-component.component.css']
 })
 export class FirstPageComponentComponent implements OnInit {
   // Get a way to access `ons-navigator` by Dependency Injection (DI)

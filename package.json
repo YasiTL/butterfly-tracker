@@ -24,6 +24,7 @@
     "ngx-onsenui": "^4.2.2",
     "onsenui": "^2.10.5",
     "rxjs": "~6.2.0",
+    "skeleton-css": "^2.0.4",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
