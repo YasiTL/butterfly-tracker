@@ -5,12 +5,14 @@ import { OnsenModule } from 'ngx-onsenui';
 import { AppComponent } from './app.component';
 import { FirstPageComponentComponent } from './first-page-component/first-page-component.component';
 import { SecondPageComponentComponent } from './second-page-component/second-page-component.component';
+import { ButterfliesComponent } from './butterflies/butterflies.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstPageComponentComponent,
-    SecondPageComponentComponent
+    SecondPageComponentComponent,
+    ButterfliesComponent
   ],
   imports: [
     BrowserModule,
